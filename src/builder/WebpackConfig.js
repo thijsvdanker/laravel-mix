@@ -73,7 +73,7 @@ class WebpackConfig {
                 ? `${http}://${Config.hmrOptions.host}:${
                       Config.hmrOptions.port
                   }/`
-                : '/'
+                : ''
         };
 
         return this;
